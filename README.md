@@ -1,48 +1,73 @@
-# 基本ルール
+<p align="center">
+  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+</p>
 
-## リポジトリの作成
+[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
+[circleci-url]: https://circleci.com/gh/nestjs/nest
 
-1. "名-姓-free-develop"フォルダを作成し、README.md ファイルを作成し、このルールをコピペで貼り付けてください。
-2. 自身の GitHub アカウントに"名-姓-free-develop"リポジトリを作成します。
-   - 例: 梅本 健太の場合 → `kenta-umemoto-free-develop`
-3. ローカルの"名-姓-free-develop"を Git のリモートリポジトリに push してください。
+  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
+    <p align="center">
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
+<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
+<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
+<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
+<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
+<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
+  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
+    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
+  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
+</p>
+  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
+  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## README の内容
+## Description
 
-README には以下の項目を記載してください：
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-- 環境構築方法
-- 起動方法
-- 基本的なフォルダ構成の説明
+## Installation
 
-## ブランチ作成とコミット
+```bash
+$ npm install
+```
 
-1. 作る機能ごとにブランチを作成してください。ブランチ名は何の機能を実装したのかわかりやすい名前にしてください。
-2. なるべくこまめにコミットを実施してください。コミット名は簡潔でわかりやすいものにしてください。
+## Running the app
 
-## プルリクエスト
+```bash
+# development
+$ npm run start
 
-1. 作る機能ごとにプルリクエストを作成してください。
-2. プルリクエストを作成したら Slack にて完了と確認の旨を連絡してください。
-3. プルリクエストのメッセージには、対応内容やエビデンスのスクリーンショットなどを記載し、わかりやすく説明できるようにしてください。
+# watch mode
+$ npm run start:dev
 
-# コーディング規約
+# production mode
+$ npm run start:prod
+```
 
-1. 関数や変数には可能な限りコメントをつけましょう。
-2. コードの可読性を高めるために、一貫したインデントとスペースを使用するように prettier を入れてください。
-   - [Prettier の導入方法](https://zenn.dev/mikakane/articles/nestjs-prettier-precommit)
-3. コードのエラー検知をしやすくするために、eslint を導入してください。
-   - [ESLint の導入方法](https://zenn.dev/yumemi_inc/articles/nestjs-starter-7)
-4. 関数名、変数名、クラス名などの命名規則に従ってください。
-   - ファイル名：パスカルケース（PascalCase）
-   - クラス名：パスカルケース（PascalCase）
-   - 関数と変数：キャメルケース（camelCase）
+## Test
 
-# 時間管理と振り返り
+```bash
+# unit tests
+$ npm run test
 
-1. 各機能の実装を行う際に実施時間を計測してください。課題以外のものをする際にはタイマーを止めてください。
-2. 完了後、「難しかったポイント」に自分なりのポイントを記載してください。
+# e2e tests
+$ npm run test:e2e
 
-# プロジェクト起動方法
+# test coverage
+$ npm run test:cov
+```
 
-コマンド：`npm run start:dev`
+## Support
+
+Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+
+## Stay in touch
+
+- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
+- Website - [https://nestjs.com](https://nestjs.com/)
+- Twitter - [@nestframework](https://twitter.com/nestframework)
+
+## License
+
+Nest is [MIT licensed](LICENSE).
